@@ -3,7 +3,9 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
        String str="null";
+       String str1="Java";
        System.out.println(toUpperCase(str));
+       System.out.println(toUpperCase(str1));
     }
     public static String toUpperCase(String str){
         String res="";
